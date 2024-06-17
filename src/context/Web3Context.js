@@ -26,7 +26,7 @@ export const Web3ProviderComponent = ({ children }) => {
     setSigner(signer);
     setAddress(address);
 
-    const contractAddress = "0xB64d55c5743f0c820B66Ec0ebf2bb8BE2a458BEE"; // Replace with your deployed contract address
+    const contractAddress = "YOUR_CONTRACT_ADDRESS"; // Replace with your deployed contract address
     const contract = new ethers.Contract(contractAddress, RoomRent.abi, signer);
     setContract(contract);
   };
