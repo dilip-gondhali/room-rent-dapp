@@ -7,16 +7,16 @@ module.exports = {
   networks: {
     hardhat: {},
     sepolia: {
-      url: "https://eth-sepolia.g.alchemy.com/v2/CkrSVYa8E3etSvUuYQz2EQkzRW06PEhb",
+      url: "https://eth-sepolia.g.alchemy.com/v2/YOUR_ALCHEMY_API_KEY",
       accounts: [
-        "ee5ff08a5c2f736e66e24059c20674c8683fffdccd66b908d7d9762246691dac",
+        "YOUR_PRIVATE_KEY",
       ],
     },
   },
   etherscan: {
     // Your API key for Etherscan
     // Obtain one at https://etherscan.io/
-    apiKey: "NGQK7HG6EG9C397KFYUEBPYFDHW37SG3IV"
+    apiKey: "YOUR_ETHERSCAN API_KEY"
   },
   sourcify: {
     // Disabled by default
